@@ -1,5 +1,5 @@
 soma([], 0).
-soma([A|B], S) :- soma(B, C), S is A+C.
+soma([X|L], S) :- soma(L, S1), S is X+S1.
 
 nelementos([], 0).
 nelementos([_|A], N) :- nelementos(A, B), N is B+1.
