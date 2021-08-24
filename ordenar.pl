@@ -5,4 +5,4 @@ inserir(A, [B|X], [B|Y]) :- inserir(A, X, Y).
 ordenar([], []).
 ordenar([A|B], C):- ordenar(B, X), inserir(A, X, C).
 
-/* Ordenar	uma	lista	de	inteiros. */
+/* Ordenar uma lista de inteiros. */

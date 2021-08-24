@@ -8,4 +8,4 @@ rotacionarn(0, A, A).
 rotacionarn(1, A, B) :- rotacionar(A, B).
 rotacionarn(R, A, B) :- rotacionarn(X, A, C), rotacionar(C, B), R is X+1.
 
-/* Rotacionar	uma	lista	'n' posições. */
+/* Rotacionar uma lista	'n' posições. */

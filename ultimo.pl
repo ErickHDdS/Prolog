@@ -1,4 +1,4 @@
-ultimo([U], U).
-ultimo([_|A], B) :- ultimo(A, B).
+ultimo([E], E).
+ultimo([_|V], U) :- ultimo(V, U).
 
-/* Obter	o	último	elemento	de	uma	lista. */
+/* Obter o último elemento de uma lista. */
