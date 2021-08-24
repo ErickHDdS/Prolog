@@ -5,10 +5,8 @@
 ## Instruções para execução:
   1. Faça o download do compilador para a linguagem [**Prolog**](https://www.swi-prolog.org/)  
   2. Utilizando o terminal, acesse a pasta "Prolog".
-  3. Compile o projeto a partir de `xxx` + `xx.xx`
-  4. Execute a partir do comando `NomeDoProjeto` + entrada de dados desejada.
-  
-  
+  3. Compile o projeto a partir de `swipl` + `NomeDoProjeto.pl`
+  4. Execute a partir do comando `NomeDoProjeto` + entrada de dados desejada + `.`.
     
 ## Realizado por:
 
