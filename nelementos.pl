@@ -1,4 +1,4 @@
 nelementos([], 0).
-nelementos([_|A], N) :- nelementos(A, B), N is B+1.
+nelementos([_|V], N) :- nelementos(V, C), N is C+1.
 
-/* Obter	o	número	de	elementos	de	uma	lista. */
+/* Obter o número de elementos de uma lista. */

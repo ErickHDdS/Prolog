@@ -1,4 +1,4 @@
 incrementar([], []).
-incrementar([A|B], [I|X]) :- I is A+1, incrementar(B, X).
+incrementar([E|V1], [I|V2]) :- I is E+1, incrementar(V1, V2).
 
-/* Incrementar	em	uma	unidade	cada	elemento	de	uma	lista	de	inteiros. */
+/* Incrementar em uma unidade cada elemento	de uma lista de	inteiros. */
