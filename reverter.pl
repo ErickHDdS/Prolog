@@ -1,7 +1,7 @@
 concatenar([], L, L).
-concatenar([X|L1], L2, [X|L3]) :- concatenar(L1, L2, L3).
+concatenar([V|L1], L2, [V|L3]) :- concatenar(L1, L2, L3).
 
 reverter([], _).
-reverter([A|B], R) :- reverter(B, X), concatenar(X, [A], R).
+reverter([E1|E2], R) :- reverter(E2, V), concatenar(V, [E1], R).
 
 /* Reverter	uma	lista. */
